@@ -1,0 +1,49 @@
+Ooops>
+Abstraction->
+hiding internal implemention and just highlight set of services what we are offering is concept of abstraction
+Eg-: ATM Screen set of services offering
+
+Outside person cant see internal implementation
+-Security - Top priority
+-Enhancement become easy - without effection end user we can change internal 
+-Improves easyness to use our system
+-maintain ability will be improved
+
+
+Encapsulation->
+the process of binding the data members and behaviour(method) in single unit 
+by declaring private we can achive data hiding 
+-> data hiding + abstraction
+->secuirty
+
+
+inheritance-> extends keyword
+--->Advantage Reuseability of code 
+--->Java is a mechanism in which one object acquires all the properties and behaviors of a parent object
+
+<-whatever methods parent as by default available to child ->
+
+<-child specifie method by default not available to parent->
+
+parent references we can hold child class but we cant access child method
+
+eg :-
+class A
+{
+ public void m1()
+{
+}
+}
+class B extends A
+{
+public void m2()
+{
+}
+}
+
+main class 
+main method
+A a=new A()
+a.m2; error;
+
+
